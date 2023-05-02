@@ -1,0 +1,155 @@
+/* Fuente y estilos de página */
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ff50b3;
+  background-color: #f8f9fa;
+}
+
+
+/* Estilo de enlace */
+a {
+  color: #ff00a2;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Encabezado */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: #ff8cab;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'consolas', serif;;
+}
+.navbar-nav .nav-link {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #f62d8b;
+}
+.navbar-nav .nav-link:hover {
+  color: #ed148c;
+}
+.navbar-toggler {
+  border-color: #e67194;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(121, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.small {
+  font-size: 0.875rem !important;
+  font-weight: 600;
+}
+
+
+header {
+  background-color: #fff;
+  background-image: linear-gradient(to right, #ff80007b, #bd669e);
+  color: #fff;
+}
+.header-profile {
+  position: relative;
+  height: 350px;
+}
+.profile {
+  position: absolute;
+  bottom: 20%;
+  width: 25rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  float: right;
+  height: 30rem;
+  background-color: #ffffff;
+   box-shadow: 0 0 10px rgba(123, 54, 235, 0.1);
+  overflow: hidden;
+}
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: left;
+}
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #ff00a2, #5b4f4f);
+}
+
+
+.about-heading {
+  color: #333;
+}
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.text-gradient-lg {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #007bff, #6c757d);
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  background-color: pink;
+}
+h2.display-4 {
+  background: linear-gradient(to right, #ff6b6b, #ff9139);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#Comuniquemonos {
+  background-color: #fff; 
+  border: 2px solid #f06;
+  padding: 20px; 
+  text-align: center;
+}
+
+#Comuniquemonos label {
+  color: rgb(255, 255, 255); 
+}
+
+#Comuniquemonos input,
+#Comuniquemonos textarea {
+  border: 2px solid rgba(255, 0, 102, 0.438); 
+  border-radius: 5px; 
+  padding: 5px; 
+  color: rgb(30, 30, 30); 
+}
+
+#enviado {
+  background-color: #f06; 
+  border-color: #f06; 
+  color: #fff; }
+
